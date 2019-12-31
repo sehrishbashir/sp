@@ -1,0 +1,506 @@
+<!doctype html>
+<html amp lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
+    <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
+    <title>Spectrum Triple Play | Top Internet, TV & Phone Deals</title>
+    <link rel="canonical" href="/">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Open-source framework for publishing content",
+        "datePublished": "2015-10-07T12:02:41Z",
+        "image": [
+          "logo.jpg"
+        ]
+      }
+    </script>
+    <style amp-boilerplate>
+        body {-webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both; -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both; animation: -amp-start 8s steps(1, end) 0s 1 normal both}
+        @-webkit-keyframes -amp-start {from {visibility: hidden} to {visibility: visible}}
+        @-moz-keyframes -amp-start {from {visibility: hidden} to {visibility: visible}}
+        @-ms-keyframes -amp-start {from {visibility: hidden} to {visibility: visible}}
+        @-o-keyframes -amp-start {from {visibility: hidden} to {visibility: visible}}
+        @keyframes -amp-start {from {visibility: hidden} to {visibility: visible}}
+    </style><noscript>
+        <style amp-boilerplate>
+            body {-webkit-animation: none; -moz-animation: none; -ms-animation: none; animation: none}
+        </style>
+    </noscript>
+    <style amp-custom=''>
+        h1, h2{font-size: 18px;}
+        *{outline: none; box-sizing: border-box; list-style: none; transition: all .5s ease;}
+        h1,h2,h3,h4,h5,h6 {font-family: 'Roboto Slab', serif; -moz-font-family: 'Roboto Slab', serif; font-weight: 400; text-align: center;}
+        li {font-family: 'Assistant', serif;}
+        header,.menu,.logo,.phone,.lst-tick .list,.price-bx,.starting-price,.ft-links {display: flex;}
+        header,.menu {justify-content: space-between;}
+        section,.menu,#contact-form,#contact-form input[type="text"],#contact-form input[type="number"],.banner-txt,.lst-tick,.lst-tick .list,.offer-band,.TV,.price-bx,.box-style-spectrum {width: 100%;}
+        .sidebar-nav-item,.hero,.form h5,.banner-txt .offer,.sp-1,.btn,.charter,.box-style-spectrum h3,.starting-price .offer,.text-center,.spectrum-voice h2,.bg-grey h2,.map-section h2 { text-align: center;}
+        .lst-tick .list li,.price div big,.TV li,.box-style-spectrum li,.bg-light-grey li,.btn,.price1 small, p,.bg-light-grey p,.spectrum-voice p,.bg-grey p,.disclaimerSection p,.footer-1 p,.privacy-policy p, .price sub, .banner-txt p, .price div { font-family: 'Assistant', serif; -moz-font-family: 'Assistant', serif; }
+        .lst-tick .list li,.banner-txt p,.TV ul,.box-style-spectrum ul,.bg-light-grey ul,.charter {color: #5a5a5a;}
+        .lst-tick .list .fa-check-circle:before,.privacy-policy a,.price div,.TV .fa-chevron-circle-right:before,.box-style-spectrum .fa-chevron-circle-right:before,.bg-light-grey .fa-chevron-circle-right:before,.price1 div {color: #ffc40c;}
+        .offer-band,.bg-tv,.content-pic {background-size: contain;}
+        .hero,.phone,.offer-band,.sp-1,.perfect-tv-plan,.bg-tv,.bg-grey,.content-pic,.ibex {background-repeat: no-repeat;}
+        .btn,#contact-form input[type="text"],#contact-form input[type="number"],.perfect-tv-plan p,.bg-light-grey p,.spectrum-voice p,.bg-grey p,.disclaimerSection p,.footer-1 p,.privacy-policy p {line-height: 1.42857143;}
+        .bg-grey,.perfect-tv-plan {background-size: cover;}
+        .sp-1 {background-size: contain;}
+        header {background: #fff; padding: 15px 0px; position: sticky; top: 0; z-index: 999;}
+        .menu {margin: 0 auto;}
+        .logo {width: 65%; justify-content: flex-end;}
+        .logo-img {width: 110px;}
+        #sidebar-menu-btn {background: 0 0; border: 0; color: #000; font-weight: 700; font-size: 24px; padding: 0 30px 0 0;}
+        #sidebar {width: 250px; background-color: #fff; color: blue; padding: 1.5rem;}
+        .amp-custom-sidebar-header {line-height: 3.5rem; min-height: 3.5rem; color: #000;}
+        #sidebar-close {cursor: pointer;}
+        .sidebar-menu {padding: 0px; margin: 0;}
+        .hero {background-image: url(img/main-bg2.png); background-position: top; background-size: cover;}
+        p {color: #94e0e0; margin: 0; line-height: 0.8; font-size: 14px; padding: 1px;}
+        h2 {margin: 0; font-size: 20px;}
+        a {text-decoration: none; color: #fff;}
+        .phone {margin-top:30px; background-position: top; height: 430px; background-image: url(img/bg-iphone-2.png); background-size: 100%; align-items: center; justify-content: center;}
+        .form { height: 60vh; width: 80%; margin: 35% 0 0 0;}
+        .form h5 {margin: 35px 0 20px 0; color: #fff; font-size: 16px; padding: 0 11px; line-height: 1.2;}
+        #contact-form input[type="text"],#contact-form input[type="number"] {display: block; margin-top: 10px; padding: 6px 12px; font-size: 14px; color: #555; background-color: #fff; border: 1px solid #ccc; border-radius: 4px; box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075); transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;}
+        #contact-form input[placeholder="Address*"],#contact-form input[placeholder="Apartment"],#contact-form input[placeholder="Zip Code*"] {color: #a1a7a1; font-size: 13px; letter-spacing: 0.6px;}
+        #contact-form input:hover {border-color: none;}
+        #contact-form input[type="submit"] {width: 100px; padding: 10px; border: 0; margin-top: 20px; background: #ffc40c; cursor: pointer; color: #fff; font-size: 16px; border-radius: 3px;}
+        #contact-form input[type="submit"]:hover {border: 1px solid #000;}
+        .banner-txt h1,.bg-light-grey h2,.spectrum-voice h3,.bg-light-grey p,.spectrum-voice p,.bg-grey p,.disclaimerSection p,.spectrum-voice a,.bg-grey h5,.map-section h2,.specturm-serving h5,.footer-1 p,.privacy-policy p {color: #6a6a6a;}
+        .banner-txt h1 { margin: 0; font-size: 16px; line-height: 1.2; text-align: center;}
+        .lst-tick { padding: 0;}
+        .lst-tick .list {justify-content: flex-start;}
+        .lst-tick .list .fa-check-circle:before {padding-right: 10px; margin-top: 5px; font-size: small;}
+        .lst-tick .list li {margin-bottom: 5px; font-size: 13px; margin-top: 3px;}
+        .lst-tick .list .fa-check-circle {margin-top: 2px;}
+        .banner-txt p {margin: 0 0 15px; font-size: 13px;}
+        .price div {font-weight: bolder;}
+        .price div sup {font-size: 25px; vertical-align: top; font-family: 'Assistant', serif;}
+        .price div big {display: inline-block; font-size: 52px; line-height: 0.8; margin-left: -5px;}
+        .price sub {display: inline-block; font-size: 25px; line-height: .6; margin-top: -2px; margin-left: -5px;}
+        .price sub small {font-size: 61%; font-weight: 400;}
+        .price p,.text-orange {line-height: 1.1; padding-left: 12px;}
+        .price p { margin-bottom: 7px;}
+        .price p small {font-size: 85%;}
+        .price .text-orange {color: #ffc40c; margin-bottom: 26px; font-weight: 600;}
+        .offer-band {background-position: center; height: 25vh; background-image: url(img/banner-img-home.png); background-size: contain;}
+        .offer {position: absolute;}
+        .offer {margin-top: -45px; right: 40px; height: 75px; width: 75px; border-radius: 100%; background-color: #ffc40c; color: #c62328; padding-top: 23px;}
+        .offer p,.offer-band .offer p {color: #c62328; font-size: 10px; padding: 0; margin: 0; font-weight: 400;}
+        .offer p big {line-height: 1.2; font-size: 24px; margin: 0; font-weight: 1000; font-family: 'Assistant', sans-serif;}
+        .TV {margin: 18px auto 0 auto; background-color: #fff; border: 1px solid #f5f5f5; border-radius: 20px; box-sizing: border-box; box-shadow: 0px 3px 9px 2px rgba(168, 168, 168, 0.56); overflow: hidden; padding-bottom: 20px; }
+        .tv {background-image: url(img/specturm-1.png);}
+        .internet {background-image: url(img/specturm-2.png);}
+        .voice {background-image: url(img/specturm-3.png);}
+        h5 {font-size: 16px;}
+        .sp-1 h5 {margin: 0; color: #f5f5f5; font-weight: 400; padding-top: 20px;}
+        .TV ul,.box-style-spectrum ul,.bg-light-grey ul {padding: 0 15px;}
+        .TV li,.box-style-spectrum li,.bg-light-grey li {margin-top: -3px;}
+        .TV .fa-chevron-circle-right:before,.box-style-spectrum .fa-chevron-circle-right:before,.bg-light-grey .fa-chevron-circle-right:before {padding-right: 10px; margin-top: 10px; font-size: small}
+        hr {margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #eee;}
+        .price-bx {justify-content: space-around; align-items: center;}
+        .btn {font-weight: 400; background-color: #ffc40c; color: #fff; outline: none; border: 1px solid #ffc40c; border-radius: 3px; padding: 8px 5px; transition: all 0.5s ease-in-out; font-size: 14px; font-weight: 400; white-space: nowrap; vertical-align: middle; touch-action: manipulation; cursor: pointer; user-select: none; background-image: none;}
+        .price-bx .price big,.price-bx .price sub {margin: 0;}
+        .price p {color: #5a5a5a}
+        .charter {font-size: 18px; line-height: 1.1; margin: 15px 0 0 0; padding: 0 15px 0 15px;}
+        strong {font-weight: 700;}
+        .box-style-spectrum {margin: 0 auto 20px auto;}
+        .box-style-spectrum {background-color: #dfdfdf; background-image: linear-gradient(#dfdfdf, #f4f4f4, #fff); border-radius: 25px; border: 1px solid #e0e0e0; margin-bottom: 30px; padding-bottom: 25px;}
+        .box-style-spectrum h3 {color: #0072b0; margin: 25px 0 10px 0; font-size: 16px;}
+        .box-style-spectrum .starting-price {background-color: #0072b0; height: 101px; margin-bottom: 10px;}
+        .starting-price {padding: 10px;}
+        .starting-price div:nth-child(1) {width: 35%;}
+        .starting-price .offer {height: 75px;width: 75px; left: 35px; margin-top: 0;}
+        .price1 p {margin-top: 2px;}
+        .price1 small {font-size: 85%; color: #fff; font-weight: 100;}
+        .price1 div {font-weight: 1000; font-size: 15px; font-family: 'Assistant', serif;}
+        .perfect-tv-plan {background-image: url(img/bg-blue.png); background-position: center; text-align: center;}
+        .container {padding: 0 25px;}
+        .bg-tv {margin: 10px auto; background-image: url(img/bg-tv.png); height: 21vh; background-position: center;}
+        .text-white {color: #fff; font-size: 17px; line-height: 1.1;}
+        .perfect-tv-plan p {font-size: 12px; margin: 21px 0 15px 0; font-weight: 400;}
+        .bg-light-grey {background-color: #f1f1f1;}
+        .bg-light-grey h2 {font-size: 18px;}
+        .bg-light-grey h2,.spectrum-voice h3 {margin-bottom: 10px;}
+        .bg-light-grey p,.spectrum-voice p,.bg-grey p,.disclaimerSection p {font-size: 12px; margin: 0 0 10px;}
+        .bg-light-grey p, .spectrum-voice p, .bg-grey p {text-align: center;}
+        .spectrum-voice h2 {font-size: 20px; color: #333333; line-height: 1.2; margin-bottom: 25px;}
+        .spectrum-voice h3 {margin: 0; line-height: 1.1; font-size: 16px; margin-top: 20px;}
+        .spectrum-voice p {margin-top: -15px;}
+        .bg-grey {background-image: url(img/bg-grey.jpg); background-position: center;}
+        .bg-grey h2 {font-size: 20px; color: #333333;}
+        .bg-grey p {margin-top: 8px;}
+        .bg-grey h5 {margin-bottom: 0;}
+        .content-pic {height: 185px; margin: 10px auto;}
+        .content-pic1 {background-image: url(img/content-pic.png); margin-top: 30px; background-position: center; background-size: contain;}
+        .content-pic2 {background-size: contain; background-position: center; height: 200px; background-image: url(img/content-pic-2.png); margin-bottom: 30px;}
+        .content-pic3 {background-position: center; background-image: url(img/content-pic-3.png); height: 130px; margin-top: 30px;}
+        .content-bx h5 {margin-top: 5px;}
+        .map-section h2 {margin: 0 auto; font-size: 16px; line-height: 1.1;}
+        .map {text-align: center; margin-top: 15px; background: url(img/us-map.png) center center no-repeat; background-size: contain; padding: 74px 0 94px 0;}
+        select {font-weight: 400; width: 116px; height: 24px; font-family: inherit; font-size: inherit; line-height: inherit;}
+        .specturm-serving h5 {font-size: 16px; margin: 0 0 10px 0;}
+        .specturm-serving p.semi-bold {font-weight: 600;}
+        .disclaimerSection {padding: 19px 19px; text-align: start;}
+        .footer-1,.privacy-policy,.disclaimerSection {border-bottom: 1px solid #e7e7e7;}
+        .footer-1 {padding: 19px 19px 0 19px; background-color: #fff;}
+        .privacy-policy {background-color: #fff; padding: 19px 19px;}
+        .footer-1 .container,.privacy-policy .container {padding: 0 0 40px 0;}
+        .footer-1 p {font-size: 11px;}
+        .privacy-policy p {font-size: 12px; margin-bottom: 0;}
+        .ft-links {margin-top: 25px; justify-content: space-between;}
+        .d {margin-top: 4px; width: 50%;}
+        .ibex {width: 26%;}
+        big {font-weight: 1000; font-size: 20px; display: inline-block; line-height: 1;}
+        .ibex {background-image: url(img/footer-ibex.png); height: 37px; background-size: contain;}
+        .sp-1{height: 228px;}
+        .banner-lst ul {margin-top: 5px}
+
+        @media only screen and (max-width: 500px) {.sp-1{height: 330px;} .offer-band{height: 32vh;} .offer{margin-top: -36px; height: 85px; width: 85px;}}
+        @media only screen and (max-width: 400px) {.offer-band{height: 30vh;} .offer{height: 80px; width: 80px;} .sp-1{height: 265px; background-size: contain;}}
+        @media only screen and (max-width: 370px) {.sp-1{height: 230px;}}
+        @media only screen and (max-width: 360px) {.hero{background-size: 620px; background-position: center;}.sp-1{height: 222px;}}
+        @media only screen and (max-width: 340px) {.tm{margin-top: 0;} .offer-band {height: 26vh;}.content-pic1, .content-pic2, .content-pic3{margin: 0;} .offer-band{margin-left: 0;} .phone{height: 364px;} .hero{background-size: 600px;}}
+        @media only screen and (max-width: 330px) {.sp-1{height: 210px;}}
+        @media only screen and (max-width: 320px) {.offer{height: 75px; width: 75px; margin-top: -33px; right: 28px;}}
+        @media only screen and (max-width: 310px) {.sp-1{height: 200px;}}
+
+
+
+        :root {--color-primary: #005AF0; --color-secondary: #00DCC0; --color-text-light: #fff; --space-2: 1rem; --box-shadow-1: 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 1px -1px rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);}
+        .scrollToTop {background-color: #1374c4; color: var(--color-text-light); font-size: 1.4em; box-shadow: var(--box-shadow-1); width: 50px; height: 50px; border-radius: 50%; border: 2px solid #fff; outline: none; z-index: 9999; bottom: var(--space-2); right: var(--space-2); position: fixed; opacity: 0; visibility: hidden;}
+        .target-anchor {position: absolute; top: -72px; left: 0;}
+        .sidebar-menu li {margin-top: 10px; width: 200px;}
+        .sidebar-nav-link {cursor: pointer; text-decoration: none; color: #fff;}
+        .sidebar-nav-item:hover {background-color: #fff;}
+        .sidebar-nav-item:hover a {color: #3ba5df;}
+        .sidebar-nav-item {border-radius: 20px; font-weight: 600px; text-transform: capitalize; letter-spacing: .6px; line-height: 2.0625; border: 1px solid #3ba5df; background-color: #3ba5df;}
+        .fas {margin-top: 3px;}
+        .price2 {margin-top: 17px;}
+        .spectrum-voice .visit {text-align: start;}
+        .left-bg {background-image: url("img/left-bg.png"); background-position: center; height: 190px; background-repeat: no-repeat; background-size: contain; margin-left: 15px;}
+        .hero, .banner-txt, .sp-items, .perfect-tv-plan, .lightning-fast, .spectrum-voice, .bg-grey, .map-section, .specturm-serving, .disclaimerSection, .footer-1, .privacy-policy {padding: 19px 20px;}
+        .perfect-tv-plan h2 {margin-top: 30px;}
+        .sidebar-nav-item .active {background-color: #fff; color: #3ba5df; padding: 8px 80px; border: 1px solid #3ba5df; border-radius: 35px;}
+
+        
+
+
+
+        .orange {margin-bottom: 4px; line-height: 1.2; padding-left: 14px; color: #ffc40c; margin: 0 0 10px; font-size: 14px;}
+        .grey {margin-bottom: 4px; line-height: 1.2; padding-left: 14px;}
+        p.grey, p.og {margin-bottom: 5px;}
+        .offer-band {background-image: url(img/banner-double-play.png); height: 32vh; background-position: center; background-size: contain;}
+        .disclaimerSection {padding: 20px 15px;}
+        .footer-1, .privacy-policy {padding: 18px 15px;}
+        section.call-to-action {padding-top: 18px; padding-bottom: 18px;}
+        section.call-to-action h2 {margin-bottom: 0; line-height: 1.2; color: #0072b0; font-size: 18px; text-align: center;}
+        section.call-to-action a {color: #666; outline: none; text-decoration: none; background-color: transparent; font-weight: 700; font-size: 18px;}
+        .charter {font-size: 18px; margin-bottom: 10px; line-height: 1.3; color: inherit; margin-top: 22px; padding: 0;}
+        .charter-para {text-align: center; margin: 0 0 10px; font-size: 13px; font-family: 'Assistant', serif; line-height: 1.42857143; color: #333;}
+        .charter-para a {text-decoration: underline; color: #3c78d3;}
+        .great-services {padding-right: 19px; padding-left: 19px; margin-right: auto; margin-left: auto;}
+        .table-responsive {width: 100%; margin-bottom: 15px; overflow-y: hidden; border: 1px solid #ddd; min-height: .01%; overflow-x: auto}
+        .table-responsive>.table {width: 800px; margin-bottom: 0;}
+        .bundle-two-services small {color: #fff; font-size: 14px; font-weight: normal;}
+        .bundle-two-services sup {font-size: 56%;}
+        .bundle-two-services {font-family: 'Assistant', serif; padding: 30px 0;}
+        .bundle-two-services table, .bundle-two-services table th, .bundle-two-services table td {border: 1px solid #dfdfdf; vertical-align: middle;}
+        .bundle-two-services table {border-collapse: collapse; margin-top: 20px;}
+        .table {max-width: 100%;}
+        table {background-color: transparent; border-spacing: 0;}
+        .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {padding: 8px; line-height: 1.42857143;}
+        .text-center {text-align: center;}
+        .text-blue {color: #0072b0;}
+        .bundle-two-services table h3 {margin-bottom: 0;}
+        .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th {white-space: unset;}
+        .bundle-two-services table thead tr th {background-color: #0072b0; color: #ffc40c; font-size: 15px; border-bottom: 1px solid transparent; text-align: center; width: 20%;} 
+        .text-center {padding: 8px; line-height: 1.42857143;}
+        .text-center h3 {font-size: 18px; margin: 0;}
+        .services-chart {font-size: 12px;}
+        .services-chart hr {margin: 10px 0 10px 0;}
+        .services-chart strong {color: #333;}
+        .bundle-two-services .container {padding: 0 15px;}
+        .bundle-two-services .alternate-row {background-color: #f6f5f5;}
+
+        .sidebar-nav-item .active {background-color: #fff; color: #3ba5df; padding: 8px 24px; border: 1px solid #3ba5df; border-radius: 35px;}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu content-width">
+            <div class="logo">
+                <amp-img class="logo-img" src="img/logo.png" layout="responsive" width="180" height="60"></amp-img>
+            </div>
+            <button id="sidebar-menu-btn" on="tap:sidebar.toggle">☰</button>
+        </div>
+    </header>
+    <amp-sidebar id="sidebar" layout="nodisplay" side="right">
+        <div class="amp-custom-sidebar-header">
+            <div role="button" aria-label="close sidebar" on="tap:sidebar.toggle" tabindex="0" id="sidebar-close">✕
+            </div>
+        </div>
+        <ul class="sidebar-menu">
+            <li class="sidebar-nav-item"><a href="index.html" class="sidebar-nav-link">Home</a></li>
+            <li class="sidebar-nav-item"><a href="triple-play.html" class="sidebar-nav-link">Triple Play Bundles </a></li>
+            <li class="sidebar-nav-item active"><a href="double-play.html" class="sidebar-nav-link active">Double Play Bundles</a></li>
+            <li class="sidebar-nav-item"><a href="what-is-spectrum.html" class="sidebar-nav-link">What is Spectrum?</a></li>
+            <li class="sidebar-nav-item"><a href="https://www.spectrumoffers.com/Business/" class="sidebar-nav-link">Business</a></li>
+        </ul>
+    </amp-sidebar>
+    <main>
+        <section class="hero">
+            <p>Order Online or Call Now</p>
+            <h2>
+                <strong>
+                    <a id="formattedNumber" href="tel:+18662883371">1-866-288-3371</a>
+                </strong>
+            </h2>
+            <p>Open 24 hours a day, 7 days a week</p>
+            <div class="phone">
+                <div class="form">
+                    <h5>SEE WHAT'S AVAILABLE AT YOUR HOME!</h5>
+                    <form method="post" id="contact-form"  action-xhr="/" target="_top">
+                        <input type="text" name="address" data-val-regex-pattern="^[a-zA-Z0-9 '*,\/.#\\-]*$"
+                            placeholder="Address*" required>
+                        <input type="text" name="apartment" data-val-regex-pattern="^[a-zA-Z0-9 ,\/.#\\-]*$"
+                            placeholder="Apartment" required>
+                        <input type="text" name="zip" data-val-regex-pattern="^[0-9]+\d+$" placeholder="Zip Code*"
+                            required>
+                        <input type="submit" value="Search">
+                        <a class="target-anchor" id="top"></a>
+                        <amp-position-observer
+                          on="enter:hideAnim.start; exit:showAnim.start"
+                          layout="nodisplay">
+                        </amp-position-observer>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="banner-txt">
+            <h1>SPECTRUM DOUBLE PLAY</h1>
+            <ul class="lst-tick">
+                <div class="list">
+                    <i class="fas fa-check-circle"></i>
+                    <li>Spectrum TV™ Select with a wide variety of channels offering 125 and more channels</li>
+                </div>
+                <div class="list">
+                    <i class="fas fa-check-circle"></i>
+                    <li>Spectrum Internet™ with speeds starting at 100 Mbps and no data caps applied</li>
+                </div>
+                <div class="list">
+                    <i class="fas fa-check-circle"></i>
+                    <li>Or bundle Spectrum Voice™ for unlimited calling in U.S., Canada, Puerto Rico, Guam and Virgin Islands</li>
+                </div>
+            </ul>
+            <p>Early termination fee coverage†<small> (up to $500)</small></p>
+            <p class="og"><strong class="orange">Double Play Bundles</strong class="orange"></p>
+            <p class="grey">Starting at </p>
+            <span class="price">
+                <div>
+                    <sup>$</sup>
+                    <big>89</big>
+                    <sub>.98<br><small>/month</small></sub>
+                </div>
+                <p>
+                    <small>for 12 months when bundled*</small>
+                </p>
+                <p class="text-orange">No Contract Needed!</p>
+                <div class="offer-band"></div>
+        </section>
+        <section class="great-services">
+            <h2 class="charter">BUNCLE 2 <strong>SERVICES</strong><br>AND <strong>SAVE MORE!</strong></h2>
+            <p class="charter-para">Don’t need three services? Sign up for <a href="https://www.spectrumoffers.com/">Spectrum Double</a> Play! Enjoy two services
+                at highly affordable rates. These flexible places will meet all your connectivity and entertainment needs.
+                Check details of offers below.</p>
+        </section>
+        <section class="bundle-two-services">
+            <div class="container">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <td colspan="5" class="text-center"><h3 class="text-blue">NO CONTRACT NEEDED!</h3></td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    SPECTRUM TV<sup>TM</sup> SELECT + SPECTRUM INTERNET<sup>TM</sup><br>
+                                    <small>ONLY</small><br>
+                                    <span class="header-price">$89.98/mo</span><br>
+                                    <small>for 12 months</small>
+                                </th>
+                                <th>
+                                    SPECTRUM TV<sup>TM</sup> SILVER + SPECTRUM INTERNET<sup>TM</sup><br>
+                                    <small>ONLY</small><br>
+                                    <span class="header-price">$114.98/mo</span><br>
+                                    <small>for 12 months</small>
+                                </th>
+                                <th>
+                                    SPECTRUM TV<sup>TM</sup> GOLD + SPECTRUM INTERNET<sup>TM</sup><br>
+                                    <small>ONLY</small><br>
+                                    <span class="header-price">$134.98/mo</span><br>
+                                    <small>for 12 months</small>
+                                </th>
+                                <th>
+                                    SPECTRUM INTERNET<sup>TM</sup> + SPECTRUM VOICE<sup>TM</sup><br>
+                                    <small>ONLY</small><br>
+                                    <span class="header-price">$59.98/mo</span><br>
+                                    <small>for 12 months</small>
+                                </th>
+                                <th>
+                                    SPECTRUM TV<sup>TM</sup> SELECT + SPECTRUM VOICE<sup>TM</sup><br>
+                                    <small>ONLY</small><br>
+                                    <span class="header-price">$54.98/mo</span><br>
+                                    <small>for 12 months</small>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="services-chart">
+                            <tr>
+                                <td>
+                                    Enjoy 125+ channels with free HD plus networks such as ESPN, Discovery, CNN, Lifetime, TLC, MTV etc.
+                                </td>
+                                <td>
+                                    <strong>All the benefits of Spectrum TV Select Plus</strong>
+                                    <hr>
+                                    50 additional channels including HBO, Cinemax, Showtime
+                                </td>
+                                <td>
+                                    <strong>All the benefits of Spectrum TV Silver  Plus</strong>
+                                    <hr>
+                                    25 additional channels including starz, encore, epix
+                                </td>
+                                <td>
+                                    Unlimited calls in US, Canada, Puerto Rico, Guam and Virgin Islands
+                                </td>
+                                <td>
+                                    Enjoy 125+ channels with free HD plus networks such as ESPN, Discovery, CNN, Lifetime, TLC, MTV etc.
+                                </td>
+                            </tr>
+                            <tr class="alternate-row">
+                                <td>
+                                    Access to over 10,000 On Demand options
+                                </td>
+                                <td>
+                                    <strong>Digital Tier 1</strong> <br>
+                                    With “RedZone” and more
+                                </td>
+                                <td>
+                                    <strong>Digital Tier 2</strong><br>
+                                    With “RedZone”, ESPN News and more
+                                </td>
+                                <td>
+                                    Free Emergency calling to 911 and 411
+                                </td>
+                                <td>
+                                    Access to over 10,000 On Demand options
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class="text-center">
+                                    Fastest internet speeds starting at 100 Mbps
+                                </td>
+                                <td>
+                                    Unlimited calls in US, Canada, Puerto Rico, Guam and Virgin Islands
+                                </td>
+                            </tr>
+                            <tr class="alternate-row">
+                                <td colspan="4" class="text-center">
+                                    No data caps
+                                </td>
+                                <td>
+                                    Free Emergency calling to 911 and 411
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="call-to-action bg-light-grey">
+                <h2>CALL NOW &amp; ORDER <br>
+                    <strong>
+                        <a id="formattedNumber" href="tel:+18662883371">1-866-288-3371</a>
+                    </strong>
+                </h2>
+        </section>
+        <section class="disclaimerSection">
+            <p>Charter Communications, Charter Spectrum, Charter Spectrum TV, Charter Spectrum TV Select, Charter
+                Spectrum TV Silver, Charter Spectrum TV Gold, Charter Spectrum Internet, Charter Spectrum Internet Ultra
+                100, Charter Spectrum Voice, Charter Spectrum Double Play, &amp; Charter Spectrum Triple Play are
+                trademarks or registered trademarks of Charter Communications.</p>
+        </section>
+        <footer class="footer-1">
+            <div class="container">
+                <p>© 2019 Spectrum. All rights reserved. Spectrum is a Web site independently operated by Digital Globe
+                    Services Inc.under agreement with Spectrum Communications.</p>
+                <div class="ft-links">
+                    <div class="d">
+                        <a class="btn" href="/DISCLAIMER">Disclaimer</a>
+                    </div>
+                    <div class="ibex"></div>
+                </div>
+            </div>
+        </footer>
+        <footer class="privacy-policy">
+            <div class="container">
+                <p>We've updated our privacy policy to comply with Europe's General Data Protection Regulation (GDPR),
+                    the EU-U.S. Privacy Shield, and the Swiss-U.S. Privacy Shield. View our <a href="#"
+                        data-toggle="modal" data-target="#hrPrivacyPolicy">HR Data Privacy Policy</a> and <a href="#"
+                        data-toggle="modal" data-target="#nonhrPrivacyPolicy">Non-HR Data Privacy Policy</a> to learn
+                    more about these changes.</p>
+            </div>
+        </footer>
+        <amp-animation id="showAnim" layout="nodisplay">
+            <script type="application/json">
+              {
+                "duration": "200ms",
+                 "fill": "both",
+                 "iterations": "1",
+                 "direction": "alternate",
+                 "animations": [
+                   {
+                     "selector": "#scrollToTopButton",
+                     "keyframes": [
+                       { "opacity": "1", "visibility": "visible" }
+                     ]
+                   }
+                 ]
+              }
+            </script>
+          </amp-animation>
+          <amp-animation id="hideAnim" layout="nodisplay">
+            <script type="application/json">
+              {
+               "duration": "200ms",
+                 "fill": "both",
+                 "iterations": "1",
+                 "direction": "alternate",
+                 "animations": [
+                   {
+                     "selector": "#scrollToTopButton",
+                     "keyframes": [
+                       { "opacity": "0", "visibility": "hidden" }
+                     ]
+                   }
+                 ]
+             }
+            </script>
+          </amp-animation>
+        <button id="scrollToTopButton" on="tap:top.scrollTo(duration=200)" class="scrollToTop"><i class="fas fa-arrow-up"></i></button>
+
+    </main>
+</body>
+
+</html>
