@@ -40,8 +40,11 @@
     </noscript>
     <style amp-custom=''>
         h1, h2{font-size: 18px;}
+
         *{outline: none; box-sizing: border-box; list-style: none; transition: all .5s ease;}
+
         h1,h2,h3,h4,h5,h6 {font-family: 'Roboto Slab', serif; -moz-font-family: 'Roboto Slab', serif; font-weight: 400; text-align: center;}
+
         li {font-family: 'Assistant', serif;}
         header,.menu,.logo,.phone,.lst-tick .list,.price-bx,.starting-price,.ft-links {display: flex;}
         header,.menu {justify-content: space-between;}
@@ -64,13 +67,13 @@
         .amp-custom-sidebar-header {line-height: 3.5rem; min-height: 3.5rem; color: #000;}
         #sidebar-close {cursor: pointer;}
         .sidebar-menu {padding: 0px; margin: 0;}
-        .hero {background-image: url(img/main-bg2.png); background-position: top; background-size: cover;}
+        .hero {background-image: url(img/main-bg2.png); background-position: top; background-size: 138%;}
         p {color: #94e0e0; margin: 0; line-height: 0.8; font-size: 14px; padding: 1px;}
         h2 {margin: 0; font-size: 20px;}
         a {text-decoration: none; color: #fff;}
-        .phone {margin-top:30px; background-position: top; height: 430px; background-image: url(img/bg-iphone-2.png); background-size: 100%; align-items: center; justify-content: center;}
+        .phone {margin-top:-30px; background-position: center; height: 118vh; background-image: url(img/bg-iphone-22.png); background-size: cover; align-items: center; justify-content: center;}
         .form { height: 60vh; width: 80%; margin: 35% 0 0 0;}
-        .form h5 {margin: 35px 0 20px 0; color: #fff; font-size: 16px; padding: 0 11px; line-height: 1.2;}
+        .form h5 {margin: 68px 0 20px 0; color: #fff; font-size: 16px; padding: 0 11px; line-height: 1.2;}
         #contact-form input[type="text"],#contact-form input[type="number"] {display: block; margin-top: 10px; padding: 6px 12px; font-size: 14px; color: #555; background-color: #fff; border: 1px solid #ccc; border-radius: 4px; box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075); transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;}
         #contact-form input[placeholder="Address*"],#contact-form input[placeholder="Apartment"],#contact-form input[placeholder="Zip Code*"] {color: #a1a7a1; font-size: 13px; letter-spacing: 0.6px;}
         #contact-form input:hover {border-color: none;}
@@ -112,7 +115,7 @@
         .btn {font-weight: 400; background-color: #ffc40c; color: #fff; outline: none; border: 1px solid #ffc40c; border-radius: 3px; padding: 8px 5px; transition: all 0.5s ease-in-out; font-size: 14px; font-weight: 400; white-space: nowrap; vertical-align: middle; touch-action: manipulation; cursor: pointer; user-select: none; background-image: none;}
         .price-bx .price big,.price-bx .price sub {margin: 0;}
         .price p {color: #5a5a5a}
-        .charter {font-size: 18px; line-height: 1.1; margin: 15px 0 0 0; padding: 0 30px;}
+        .charter {font-size: 18px; line-height: 1.1; margin: 15px 0 0 0; padding: 0 15px;}
         strong {font-weight: 700;}
         .box-style-spectrum {margin: 0 auto 20px auto;}
         .box-style-spectrum {background-color: #dfdfdf; background-image: linear-gradient(#dfdfdf, #f4f4f4, #fff); border-radius: 25px; border: 1px solid #e0e0e0; margin-bottom: 30px; padding-bottom: 25px;}
@@ -166,14 +169,22 @@
         .sp-1{height: 228px;}
         .banner-lst ul {margin-top: 5px}
 
-        @media only screen and (max-width: 500px) {.sp-1{height: 330px;} .offer-band{height: 32vh;} .offer{margin-top: -36px; height: 85px; width: 85px;}}
-        @media only screen and (max-width: 400px) {.offer-band{height: 30vh;} .offer{height: 80px; width: 80px;} .sp-1{height: 265px; background-size: contain;}}
+
+        @media only screen and (max-width: 550px) {.hero{background-size: 113%;} .banner-txt{margin-top: -25%;} .form{margin: 0; height: 73%; width: 43%;}}
+        @media only screen and (max-width: 500px) {.sp-1{height: 330px;} .offer-band{height: 32vh;} .banner-txt{margin-top: -30%;} .form{width: 47%;} .offer{margin-top: -36px; height: 85px; width: 85px;} .form h5{padding: 0;}}
+        @media only screen and (max-width: 480px) {.form{width: 49%;} .form h5{font-size: 14px;}}
+        @media only screen and (max-width: 460px) {.form{width: 52%;}}
+        @media only screen and (max-width: 440px) {.form{width: 50%;} .banner-txt{margin-top: -35%;} .hero{background-size: 130%;}}
+        @media only screen and (max-width: 420px) {.form{width: 57%;}}
+        @media only screen and (max-width: 400px) {.form{width: 60%;} .hero{background-size: 160%;} .offer-band{height: 30vh;} .offer{height: 75px; width: 75px;} .sp-1{height: 265px; background-size: contain;}}
+        @media only screen and (max-width: 380px) {.form{width: 64%;} .banner-txt{margin-top: -43%;}}
         @media only screen and (max-width: 370px) {.sp-1{height: 230px;}}
-        @media only screen and (max-width: 360px) {.hero{background-size: 620px; background-position: center;}.sp-1{height: 222px;}}
-        @media only screen and (max-width: 340px) {.tm{margin-top: 0;} .offer-band {height: 26vh;}.content-pic1, .content-pic2, .content-pic3{margin: 0;} .offer-band{margin-left: 0;} .phone{height: 364px;} .hero{background-size: 600px;}}
+        @media only screen and (max-width: 360px) {.form{width: 68%;} .sp-1{height: 222px;}}
+        @media only screen and (max-width: 340px) {.form{width: 73%;} .hero{background-size: 180%;} .tm{margin-top: 0;} .offer-band {height: 26vh;}.content-pic1, .content-pic2, .content-pic3{margin: 0;} .offer-band{margin-left: 0;}}
         @media only screen and (max-width: 330px) {.sp-1{height: 210px;}}
-        @media only screen and (max-width: 320px) {.offer{height: 75px; width: 75px; margin-top: -33px; right: 28px;}}
+        @media only screen and (max-width: 320px) {.form{width: 78%;} .banner-txt{margin-top: -44%;} .offer{height: 75px; width: 75px; margin-top: -33px; right: 28px;}}
         @media only screen and (max-width: 310px) {.sp-1{height: 200px;}}
+        @media only screen and (max-width: 300px) {.form{width: 84%;}}
 
 
 
@@ -383,7 +394,7 @@
                 </div>
             </div>
         </section>
-        <h2 class="charter">FIND OUR BEST <strong>CHARTER SPECTRUM DEALS</strong></h2>
+        <h2 class="charter">FIND OUR BEST <br><strong>CHARTER SPECTRUM DEALS</strong></h2>
         <section class="sp-items triple-offers">
             <div class="box-style-spectrum">
                 <h3>TRIPLE PLAY SELECT </h3>
